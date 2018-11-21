@@ -1,6 +1,11 @@
 # sample yaml template
 page_title: Sample Page Title
 title: Sample Post title
+tags:
+  - one tag
+  - two tag
+created: 2018-21-11
+modified: 2018-21-11
 paragraphs:
             This is some place holder text for a blog post. This text is to be placed in a paragraph. This is some place holder text for a blog post. This text is to be placed in a paragraph. This is some place holder text for a blog post. This text is to be placed in a paragraph. This is some place holder text for a blog post. This text is to be placed in a paragraph.
 
