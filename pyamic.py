@@ -1,5 +1,10 @@
 """
-pyamic
+Author: Harold Goldman
+Title: pyamic
+Description: Python Static Site Generator
+Version: 0.0.1
+Date: 3/4/2019
+email: mikerah@gmail.com 
 """
 
 import argparse
@@ -7,8 +12,13 @@ import oyaml as yaml
 from jinja2 import Environment, FileSystemLoader
 
 
-def laoad_template(source_template):
+def load_template(source_template):
     """
+    load_template
+    Arguments:
+        sourece_template -- {string}
+    Returns:
+        rendered template
     """
     file_loader = FileSystemLoader('templates')
     env = Environment(loader=file_loader)
@@ -18,6 +28,11 @@ def laoad_template(source_template):
 
 def read_source(source):
     """
+    read_source
+    Arguments:
+        source -- {string}
+    Returns:
+        dictionary
     """
     with open(source, "r") as data:
         return(yaml.load(source))

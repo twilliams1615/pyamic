@@ -1,0 +1,23 @@
+# First Heading
+list:
+    - One
+    - Two
+    - Three
+    - Four
+
+dictionary:
+    one: 1
+    two: 2
+    three: 3
+    four: 4
+
+newline:
+    this is some text to 
+    display on the screen 
+    that will include formatting
+
+no_newlines:
+    this text will not
+    include the formatting
+    we used in our yaml file
+    it should display as one line
